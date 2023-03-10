@@ -1,0 +1,91 @@
+{
+  "venue": {
+    "venue_name": "Brisbane Workers\u2019 Community Centre",
+    "lon": 153.002182,
+    "lat": -27.46052,
+    "venue_id": 17770652
+  },
+  "visibility": "public",
+  "response": "no",
+  "guests": 0,
+  "member": {
+    "member_id": 221294483,
+    "photo": "http:\/\/photos1.meetupstatic.com\/photos\/member\/e\/8\/0\/4\/thumb_263939396.jpeg",
+    "member_name": "Jenny Lethbridge"
+  },
+  "rsvp_id": 1658874890,
+  "mtime": 1489923634000,
+  "event": {
+    "event_name": "Guest Presenter: Valerie Perret - Wellness facilitator and Self-Care Afficionado",
+    "event_id": "238486635",
+    "time": 1491525000000,
+    "event_url": "https:\/\/www.meetup.com\/DreamBuilders-Brisbane\/events\/238486635\/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "metaphysics",
+        "topic_name": "Metaphysics"
+      },
+      {
+        "urlkey": "consciousness",
+        "topic_name": "Consciousness"
+      },
+      {
+        "urlkey": "lifetransform",
+        "topic_name": "Life Transformation"
+      },
+      {
+        "urlkey": "wellness",
+        "topic_name": "Wellness"
+      },
+      {
+        "urlkey": "positive-thinking",
+        "topic_name": "Positive Thinking"
+      },
+      {
+        "urlkey": "personal-development",
+        "topic_name": "Personal Development"
+      },
+      {
+        "urlkey": "spiritual-growth",
+        "topic_name": "Spiritual Growth"
+      },
+      {
+        "urlkey": "life-coaching",
+        "topic_name": "Life Coaching"
+      },
+      {
+        "urlkey": "self-awareness",
+        "topic_name": "Self-Awareness"
+      },
+      {
+        "urlkey": "self-exploration",
+        "topic_name": "Self Exploration"
+      },
+      {
+        "urlkey": "self-empowerment",
+        "topic_name": "Self-Empowerment"
+      },
+      {
+        "urlkey": "self-love-and-self-acceptance",
+        "topic_name": "Self love and Self acceptance"
+      },
+      {
+        "urlkey": "self-esteem-self-confidence-boundaries-limits",
+        "topic_name": "Self Esteem Self Confidence Boundaries & Limits"
+      },
+      {
+        "urlkey": "self-help-self-improvement",
+        "topic_name": "Self Help & Self Improvement"
+      }
+    ],
+    "group_city": "Brisbane",
+    "group_country": "au",
+    "group_id": 19966923,
+    "group_name": "Expand Your Awareness & Unlock Your Dreams   Brisbane",
+    "group_lon": 153.02,
+    "group_urlname": "DreamBuilders-Brisbane",
+    "group_lat": -27.46
+  }
+}

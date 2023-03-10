@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  zookeeper:
+    image: 'bitnami/zookeeper:3.6'
+    container_name: zookeeper
+    restart: always
+    ports:
+      - '2181:2181'
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+
+  kafka:
+    image: 'bitnami/kafka:3'
+    container_name: kafka
+    restart: always
+    depends_on:
+      - zookeeper
+    ports:
+      - '9092:9092'
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+      - ALLOW_PLAINTEXT_LISTENER=yes
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    restart: always
+    depends_on:
+      - kafka
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./app-logs:/app/logs
+
+  log-collector:
+    container_name: ing_logs
+    image: busybox
+    volumes:
+      - ./app-logs:/app/logs
+    command: tail -f /app/logs/app.log
